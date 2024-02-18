@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - image: docker.io/t585585/idm-web-app:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           name: idm-web-app
       terminationGracePeriodSeconds: 30
 
