@@ -8,6 +8,8 @@ metadata:
   namespace: prod
 spec:
   replicas: 1
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: idm-web-app
